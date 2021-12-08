@@ -1,0 +1,18 @@
+{
+  "persons": [
+    {
+      "personName": "Austin Boswell",
+      "requests": [
+        {
+          "places": 1,
+          "duration_hours": 24,
+          "room_number": 10,
+          "requestStatus": "COMPLETED",
+          "bill": {
+            "cost": 400
+          }
+        }
+      ]
+    }
+  ]
+}

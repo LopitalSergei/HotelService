@@ -1,0 +1,80 @@
+{
+  "description": "Система Заказ гостиницы. Клиент заполняет Заявку, указывая количество мест в номере, класс апартаментов и время пребывания. Администратор просматривает поступившую Заявку, выделяет наиболее подходящий из доступных Номеров, после чего система выставляет Счет Клиенту.",
+  "persons": [
+    {
+      "personName": "Austin Boswell",
+      "requests": [
+        {
+          "places": 1,
+          "class": "FIRST_CLASS",
+          "duration_hours": 24,
+          "room_number": 10,
+          "requestStatus": "COMPLETED",
+          "bill": {
+            "cost": 400
+          }
+        }
+      ]
+    },
+    {
+      "personName": "Alexander Sewell",
+      "requests": [
+        {
+          "places": 1,
+          "class": "FIRST_CLASS",
+          "duration_hours": 12,
+          "room_number": 15,
+          "requestStatus": "IN_PROGRESS"
+        },
+        {
+          "places": 3,
+          "class": "SECOND_CLASS",
+          "duration_hours": 38,
+          "requestStatus": "DRAFT"
+        }
+      ]
+    },
+    {
+      "personName": "Victoria Laidler",
+      "requests": [
+        {
+          "places": 3,
+          "class": "THIRD_CLASS",
+          "duration_hours": 6,
+          "room_number": 2,
+          "requestStatus": "IN_PROGRESS"
+        }
+      ]
+    },
+    {
+      "personName": "Blake Moonlight",
+      "requests": [
+        {
+          "places": 2,
+          "class": "FIRST_CLASS",
+          "duration_hours": 18,
+          "room_number": 15,
+          "requestStatus": "PAID",
+          "bill": {
+            "cost": 250
+          }
+        }
+      ]
+    },
+    {
+      "personName": "Jamie Bennetts",
+      "requests": [
+        {
+          "places": 2,
+          "class": "SECOND_CLASS",
+          "duration_hours": 18,
+          "room_number": 15,
+          "requestStatus": "COMPLETED",
+          "bill": {
+            "cost": 180
+          }
+        }
+      ]
+    }
+  ]
+}
